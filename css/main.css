@@ -28,18 +28,26 @@
 
 
 /* Section2 */
-#sec2 {width: 1280px; margin: 0 auto; background: lightsalmon;}
-#sec2 li {width: 58%;}
-#sec2 figure {width: 100%; height: 470px; background-size: cover; background: lawngreen;}
-#sec2 figcaption {text-align: center;}
+#sec2 {width: 1280px; margin: 0 auto; position: relative; background: lightsalmon;}
+#slidewrap {width: 80%; margin: 0 auto; position: relative; overflow: hidden;}
+#sec2 ul {width: 400%; display: flex;}
+#sec2 li {width: 25%;}
+#sec2 figure {width: 100%; height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat;}
+#sec2 figcaption {text-align: center; font-size: 1.5rem; font-weight: 600;}
+#sec2 figcaption> span {font-weight: 450;}
+
+#sec2> span {position: absolute; top: 50%; display: block; font-size: 38px; line-height: 40px; color: #fff;
+        background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
+.prev {left: 0; padding: 0 8px 0 2px; border-radius: 0 10px 10px 0;}
+.next {right: 0; padding: 0 2px 0 8px; border-radius: 10px 0 0 10px;}
 
 
 
 /* Section3 */
 #sec3 {width: 1280px; margin: 0 auto; background: lightpink;}
 #sec3 ul {display: flex; flex-flow: row wrap; justify-content: space-evenly;}
-#sec3 li {width: 31%; height: 400px; margin: 10px;}
-#sec3 figure {width: 100%; height: 90%; background: teal;}
+#sec3 li {width: 31%; height: 400px; margin: 10px; background: teal;}
+#sec3 figure {width: 100%; height: 90%;}
 
 
 

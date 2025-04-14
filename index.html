@@ -5,9 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>유원재</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+KR:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+KR:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body>
@@ -32,13 +40,13 @@
         <div id="slider">
             <div class="video">
                 <iframe
-                    src="https://player.vimeo.com/video/891341498?h=1d6541250b&amp;loop=1&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=1&amp;autoplay=1"
+                    src="https://player.vimeo.com/video/891341498?h=1d6541250b&amp;loop=1&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=0&amp;autoplay=1"
                     frameborder="0" id="video-player" allowfullscreen=""></iframe>
             </div>
         </div>
 
 
-        <!-- Section2 -->
+        <!-- Section1 -->
         <div id="sec1">
             <div class="sec1_text">
                 <h1>유원재</h1>
@@ -63,31 +71,35 @@
 
         <!-- Section2 -->
         <div id="sec2">
-            <h2>Our room</h2>
-            <ul>
-                <li>
-                    <figure style="background-image: url('img/room_typeA.jpg');"></figure>
-                    <figcaption>Type A 유순(柔順)</figcaption>
-                </li>
-                <li>
-                    <figure></figure>
-                    <figcaption>Type B 겸화(謙和)</figcaption>
-                </li>
-                <li>
-                    <figure></figure>
-                    <figcaption>Type C 청심(淸心)</figcaption>
-                </li>
-                <li>
-                    <figure></figure>
-                    <figcaption>Type D 수정(守靜)</figcaption>
-                </li>
-            </ul>
+            <h2 style="font-family: 'Noto Sans Display';">Our room</h2>
+            <div id="slidewrap">
+                <ul>
+                    <li>
+                        <figure style="background-image: url('img/room_typeA.jpg');"></figure>
+                        <figcaption><span style="font-family: 'Noto Sans Display';">Type A</span> 유순(柔順)</figcaption>
+                    </li>
+                    <li>
+                        <figure style="background-image: url('img/room_typeB.jpg');"></figure>
+                        <figcaption><span style="font-family: 'Noto Sans Display';">Type B</span> 겸화(謙和)</figcaption>
+                    </li>
+                    <li>
+                        <figure style="background-image: url('img/room_typeC.jpg');"></figure>
+                        <figcaption><span style="font-family: 'Noto Sans Display';">Type C</span> 청심(淸心)</figcaption>
+                    </li>
+                    <li>
+                        <figure style="background-image: url('img/room_typeD.jpg');"></figure>
+                        <figcaption><span style="font-family: 'Noto Sans Display';">Type D</span> 수정(守靜)</figcaption>
+                    </li>
+                </ul>
+            </div>
+            <span class="prev">&lt;</span>
+            <span class="next">&gt;</span>
         </div>
 
 
         <!-- Section3 -->
         <div id="sec3">
-            <h2>Service</h2>
+            <h2 style="font-family: 'Noto Sans Display';">Service</h2>
             <ul>
                 <li>
                     <figure></figure>
@@ -119,7 +131,7 @@
 
         <!-- Section4 -->
         <div id="sec4">
-            <h2>Gallery</h2>
+            <h2 style="font-family: 'Noto Sans Display';">Gallery</h2>
             <ul>
                 <li></li>
                 <li></li>
