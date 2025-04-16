@@ -20,20 +20,22 @@
 
 
 /* Section1 */
-#sec1 {width: 1280px; margin: 0 auto;}
+#sec1 {width: 1280px; margin: 0 auto; padding-top: 100px;}
 .sec1_text {padding: 0 20px 30px 0; float: left;}
+.sec1_text> img {width: 60%;}
 #sec1 img[alt="sec1_img1"] {float: right; width: 67%;}
 #sec1 img[alt="sec1_img2"] {width: 100%; clear: both;}
 
 
 
 /* Section2 */
-#sec2 {width: 1280px; margin: 0 auto; position: relative; background: lightsalmon;}
+#sec2 {width: 1280px; margin: 0 auto; position: relative; padding-top: 100px;}
+#sec2> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
 #slidewrap {width: 80%; margin: 0 auto; position: relative; overflow: hidden;}
 #sec2 ul {width: 400%; display: flex;}
 #sec2 li {width: 25%;}
 #sec2 figure {width: 100%; height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat;}
-#sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600;}
+#sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
 #sec2 figcaption> span {font-weight: 450;}
 
 #sec2> span {position: absolute; top: 50%; display: block; font-size: 38px; line-height: 40px; color: #fff;
@@ -44,7 +46,8 @@
 
 
 /* Section3 */
-#sec3 {width: 1280px; margin: 0 auto; background: lightpink;}
+#sec3 {width: 1280px; margin: 0 auto; padding-top: 100px;}
+#sec3> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
 #sec3 ul {display: flex; flex-flow: row wrap; justify-content: space-evenly;}
 #sec3 li {width: 31%; height: 400px; margin: 10px;
     background-size: cover; background-position: center; background-repeat: no-repeat;
@@ -54,11 +57,21 @@
 
 
 /* Section4 */
-#sec4 {width: 1280px; margin: 0 auto; background: lightskyblue;}
+#sec4 {width: 1280px; margin: 0 auto; padding-top: 100px; padding-bottom: 50px;}
+#sec4> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
 #sec4 ul {display: flex; flex-flow: row wrap;}
 #sec4 li {width: 25%; height: 300px; background-size: cover; background-position: center; background-repeat: no-repeat;}
 
 
 
 /* Footer */
-footer {width: 100%; height: 150px; background: lightslategray;}
+footer {width: 100%; height: auto; background: lightslategray;}
+footer> div {width: 1280px; margin: 0 auto;}
+#footerWrap {width: 100%;}
+.footer_T {display: flex; justify-content: space-between; padding-top: 50px;}
+.footer_T img {width: 15%;}
+.footer_T> ul {display: flex; justify-content: space-between; width: 30%; font-size: 88%;}
+.footer_T> ul li {align-self: center;}
+.footer_B {display: flex; flex-direction: column; align-items: flex-end; padding-top: 10px; border-top: 1px solid #333;}
+.footer_B> ul {display: flex; justify-content: space-between; width: 88%; font-size: 95%;}
+.footer_B> p {padding: 30px 0 50px 0;}
