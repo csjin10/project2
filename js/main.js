@@ -1,3 +1,12 @@
+$(function(){
+    $('.bar').click(function(){
+        $('.mainMenu').stop().slideUp();
+        $(this).find('.mainMenu').stop().slideToggle().css('display', 'flex');
+    });
+});
+
+
+
 $(document).ready(function(){
     $('.prev').click(function(){
         $('#sec2 li:last').prependTo('#sec2 ul');
