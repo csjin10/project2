@@ -1,3 +1,4 @@
+// header
 $(function(){
     $('.bar').click(function(){
         $('.mainMenu').stop().slideUp();
@@ -6,7 +7,7 @@ $(function(){
 });
 
 
-
+// section2
 $(document).ready(function(){
     $('.prev').click(function(){
         $('#sec2 li:last').prependTo('#sec2 ul');

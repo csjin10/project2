@@ -1,80 +1,230 @@
 @charset "utf-8";
 
+@media (max-width: 600px){
+    /* Slider */
+    #slider {z-index: 1;}
+    .video {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 비율 */
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    #video-player{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
-/* Slider */
-#slider {z-index: 1;}
-.video {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 비율 */
-    height: 0;
-    overflow: hidden;
-    width: 100%;
+
+
+    /* Section1 */
+    #sec1 {width: 1280px; margin: 0 auto; padding-top: 100px; display: flex; justify-content: space-between;}
+    .sec1_text {padding: 65px 0 0 0; width: 35%; height: auto; text-align: center;}
+    .sec1_text> img {width: 220px;}
+    .sec1_text> h2 {font-size: 1.9rem; color: #444;}
+    .sec1_text> p {font-size: 1.1rem;}
+    #sec1 img[alt="sec1_img1"] {width: 32%;}
+    #sec1 img[alt="sec1_img2"] {width: 32%;}
+
+
+
+    /* Section2 */
+    #sec2 {width: 1280px; margin: 0 auto; position: relative; padding-top: 100px; clear: both;}
+    #sec2> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #slidewrap {width: 80%; margin: 0 auto; position: relative; overflow: hidden;}
+    #sec2 ul {width: 400%; display: flex;}
+    #sec2 li {width: 25%;}
+    #sec2 figure {width: 100%; height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat;}
+    #sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
+    #sec2 figcaption> span {font-weight: 450;}
+
+    #sec2> span {position: absolute; top: 55%; display: block; font-size: 50px; line-height: 25px; color: #fff;
+            background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
+    .prev {left: 0; padding: 10px; border-radius: 100px;}
+    .next {right: 0; padding: 10px; border-radius: 100px;}
+
+
+
+    /* Section3 */
+    #sec3 {width: 1280px; margin: 0 auto; padding-top: 100px;}
+    #sec3> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #sec3 ul {display: flex; flex-flow: row wrap; justify-content: space-evenly;}
+    #sec3 li {width: 31%; height: 400px; margin: 10px;
+        background-size: 210%; background-position: center; background-repeat: no-repeat;
+        display: flex; align-items: flex-end; transition: all 0.5s;}
+    #sec3 figcaption {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
+    #sec3 li:hover {background-size: 250%;}
+
+
+
+    /* Section4 */
+    #sec4 {width: 1280px; margin: 0 auto; padding-top: 100px; padding-bottom: 100px;}
+    #sec4> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #sec4 ul {display: flex; flex-flow: row wrap;}
+    #sec4 li {width: 25%; height: 300px;position: relative; background-size: cover; background-position: center; background-repeat: no-repeat;}
+    #sec4 li:hover:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.3);}
+
 }
-#video-player{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1300px){
+    /* Slider */
+    #slider {z-index: 1;}
+    .video {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 비율 */
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    #video-player{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    /* Section1 */
+    #sec1 {width: 100%; margin: 0 auto; padding-top: 100px; display: flex; flex-wrap: wrap; justify-content: space-between;}
+    .sec1_text {padding: 65px 0 0 0; width: 100%; height: auto; text-align: center; order: 1;}
+    .sec1_text> img {width: 220px;}
+    .sec1_text> h2 {font-size: 1.9rem; color: #444;}
+    .sec1_text> p {font-size: 1.1rem;}
+    #sec1 img[alt="sec1_img1"] {width: 50%;}
+    #sec1 img[alt="sec1_img2"] {width: 50%;}
+
+
+
+    /* Section2 */
+    #sec2 {width: 100%; margin: 0 auto; position: relative; padding-top: 100px; clear: both;}
+    #sec2> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #slidewrap {width: 80%; margin: 0 auto; position: relative; overflow: hidden;}
+    #sec2 ul {width: 400%; display: flex;}
+    #sec2 li {width: 25%;}
+    #sec2 figure {width: 100%; height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat;}
+    #sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
+    #sec2 figcaption> span {font-weight: 450;}
+
+    #sec2> span {position: absolute; top: 55%; display: block; font-size: 50px; line-height: 25px; color: #fff;
+            background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
+    .prev {left: 0; padding: 10px; border-radius: 100px;}
+    .next {right: 0; padding: 10px; border-radius: 100px;}
+
+
+
+    /* Section3 */
+    #sec3 {width: 100%; margin: 0 auto; padding-top: 100px;}
+    #sec3> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #sec3 ul {display: flex; flex-flow: row wrap; justify-content: space-evenly;}
+    #sec3 li {width: 46%; height: 270px; margin: 10px;
+        background-size: 210%; background-position: center; background-repeat: no-repeat;
+        display: flex; align-items: flex-end; transition: all 0.5s;}
+    #sec3 figcaption {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
+    #sec3 li:hover {background-size: 250%;}
+
+
+
+    /* Section4 */
+    #sec4 {width: 100%; margin: 0 auto; padding-top: 100px; padding-bottom: 100px;}
+    #sec4> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #sec4 ul {display: flex; flex-flow: row wrap;}
+    #sec4 li {width: 50%; height: 300px; position: relative; background-size: cover; background-position: center; background-repeat: no-repeat;}
+    #sec4 li:hover:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.3);}
+
 }
 
 
 
-/* Section1 */
-#sec1 {width: 1280px; margin: 0 auto; padding-top: 100px;}
-.sec1_text {padding: 0 20px 30px 0; float: left;}
-.sec1_text> img {width: 60%;}
-#sec1 img[alt="sec1_img1"] {float: right; width: 67%;}
-#sec1 img[alt="sec1_img2"] {width: 100%; clear: both;}
 
 
 
-/* Section2 */
-#sec2 {width: 1280px; margin: 0 auto; position: relative; padding-top: 100px;}
-#sec2> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
-#slidewrap {width: 80%; margin: 0 auto; position: relative; overflow: hidden;}
-#sec2 ul {width: 400%; display: flex;}
-#sec2 li {width: 25%;}
-#sec2 figure {width: 100%; height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat;}
-#sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
-#sec2 figcaption> span {font-weight: 450;}
-
-#sec2> span {position: absolute; top: 55%; display: block; font-size: 50px; line-height: 25px; color: #fff;
-        background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
-.prev {left: 0; padding: 10px; border-radius: 100px;}
-.next {right: 0; padding: 10px; border-radius: 100px;}
 
 
 
-/* Section3 */
-#sec3 {width: 1280px; margin: 0 auto; padding-top: 100px;}
-#sec3> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
-#sec3 ul {display: flex; flex-flow: row wrap; justify-content: space-evenly;}
-#sec3 li {width: 31%; height: 400px; margin: 10px;
-    background-size: 210%; background-position: center; background-repeat: no-repeat;
-    display: flex; align-items: flex-end; transition: all 0.5s;}
-#sec3 figcaption {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
-#sec3 li:hover {background-size: 250%;}
 
 
 
-/* Section4 */
-#sec4 {width: 1280px; margin: 0 auto; padding-top: 100px; padding-bottom: 50px;}
-#sec4> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
-#sec4 ul {display: flex; flex-flow: row wrap;}
-#sec4 li {width: 25%; height: 300px;position: relative; background-size: cover; background-position: center; background-repeat: no-repeat;}
-#sec4 li:hover:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.3);}
+@media (min-width: 1300px){
+    /* Slider */
+    #slider {z-index: 1;}
+    .video {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 비율 */
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    #video-player{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
 
 
-/* Footer */
-footer {width: 100%; height: auto; background: #b4a79e;}
-footer> div {width: 1280px; margin: 0 auto;}
-#footerWrap {width: 100%;}
-.footer_T {display: flex; justify-content: space-between; padding-top: 50px; padding-bottom: 10px;}
-.footer_T img {width: 12%;}
-.footer_T> ul {display: flex; justify-content: space-between; width: 30%; font-size: 88%;}
-.footer_T> ul li {align-self: center;}
-.footer_B {display: flex; flex-direction: column; align-items: flex-end; padding-top: 10px; border-top: 1px solid #333;}
-.footer_B> ul {display: flex; justify-content: space-between; width: 88%; font-size: 95%;}
-.footer_B> p {padding: 30px 0 50px 0;}
+    /* Section1 */
+    #sec1 {width: 1280px; margin: 0 auto; padding-top: 100px; display: flex; justify-content: space-between;}
+    .sec1_text {padding: 65px 0 0 0; width: 35%; height: auto; text-align: center;}
+    .sec1_text> img {width: 220px;}
+    .sec1_text> h2 {font-size: 1.9rem; color: #444;}
+    .sec1_text> p {font-size: 1.1rem;}
+    #sec1 img[alt="sec1_img1"] {width: 32%;}
+    #sec1 img[alt="sec1_img2"] {width: 32%;}
+
+
+
+    /* Section2 */
+    #sec2 {width: 1280px; margin: 0 auto; position: relative; padding-top: 100px; clear: both;}
+    #sec2> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #slidewrap {width: 80%; margin: 0 auto; position: relative; overflow: hidden;}
+    #sec2 ul {width: 400%; display: flex;}
+    #sec2 li {width: 25%;}
+    #sec2 figure {width: 100%; height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat;}
+    #sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
+    #sec2 figcaption> span {font-weight: 450;}
+
+    #sec2> span {position: absolute; top: 55%; display: block; font-size: 50px; line-height: 25px; color: #fff;
+            background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
+    .prev {left: 0; padding: 10px; border-radius: 100px;}
+    .next {right: 0; padding: 10px; border-radius: 100px;}
+
+
+
+    /* Section3 */
+    #sec3 {width: 1280px; margin: 0 auto; padding-top: 100px;}
+    #sec3> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #sec3 ul {display: flex; flex-flow: row wrap; justify-content: space-evenly;}
+    #sec3 li {width: 31%; height: 400px; margin: 10px;
+        background-size: 210%; background-position: center; background-repeat: no-repeat;
+        display: flex; align-items: flex-end; transition: all 0.5s;}
+    #sec3 figcaption {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
+    #sec3 li:hover {background-size: 250%;}
+
+
+
+    /* Section4 */
+    #sec4 {width: 1280px; margin: 0 auto; padding-top: 100px; padding-bottom: 100px;}
+    #sec4> h2 {text-align: center; padding-bottom: 25px; font-size: 2rem; font-weight: 650;}
+    #sec4 ul {display: flex; flex-flow: row wrap;}
+    #sec4 li {width: 25%; height: 300px;position: relative; background-size: cover; background-position: center; background-repeat: no-repeat;}
+    #sec4 li:hover:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.3);}
+
+}
