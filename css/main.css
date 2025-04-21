@@ -16,6 +16,7 @@
         left: 0;
         width: 100%;
         height: 100%;
+        border: none;
     }
 
 
@@ -38,8 +39,8 @@
     #sec2 ul {width: 400%; display: flex;}
     #sec2 li {width: 25%;}
     #sec2 figure {width: 100%; height: 300px; background-size: cover; background-position: center; background-repeat: no-repeat;}
-    #sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
-    #sec2 figcaption> span {font-weight: 450;}
+    #sec2 p {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
+    #sec2 p> span {font-weight: 450;}
 
     #sec2> span {position: absolute; top: 60%; display: block; font-size: 40px; line-height: 25px; color: #fff;
             background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
@@ -55,7 +56,7 @@
     #sec3 li {width: 90%; height: 330px; margin: 10px;
         background-size: 210%; background-position: center; background-repeat: no-repeat;
         display: flex; align-items: flex-end; transition: all 0.5s;}
-    #sec3 figcaption {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
+    #sec3 p {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
     #sec3 li:hover {background-size: 250%;}
 
 
@@ -96,6 +97,7 @@
         left: 0;
         width: 100%;
         height: 100%;
+        border: none;
     }
 
 
@@ -118,8 +120,8 @@
     #sec2 ul {width: 400%; display: flex;}
     #sec2 li {width: 25%;}
     #sec2 figure {width: 100%; height: 450px; background-size: cover; background-position: center; background-repeat: no-repeat;}
-    #sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
-    #sec2 figcaption> span {font-weight: 450;}
+    #sec2 p {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
+    #sec2 p> span {font-weight: 450;}
 
     #sec2> span {position: absolute; top: 57%; display: block; font-size: 50px; line-height: 25px; color: #fff;
             background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
@@ -135,7 +137,7 @@
     #sec3 li {width: 46%; height: 270px; margin: 10px;
         background-size: 210%; background-position: center; background-repeat: no-repeat;
         display: flex; align-items: flex-end; transition: all 0.5s;}
-    #sec3 figcaption {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
+    #sec3 p {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
     #sec3 li:hover {background-size: 250%;}
 
 
@@ -176,6 +178,7 @@
         left: 0;
         width: 100%;
         height: 100%;
+        border: none;
     }
 
 
@@ -198,8 +201,8 @@
     #sec2 ul {width: 400%; display: flex;}
     #sec2 li {width: 25%;}
     #sec2 figure {width: 100%; height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat;}
-    #sec2 figcaption {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
-    #sec2 figcaption> span {font-weight: 450;}
+    #sec2 p {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
+    #sec2 p> span {font-weight: 450;}
 
     #sec2> span {position: absolute; top: 57%; display: block; font-size: 50px; line-height: 25px; color: #fff;
             background: rgba(0, 0, 0, 0.6); cursor: pointer; height: 50px; transform: translateY(-50%);}
@@ -215,7 +218,7 @@
     #sec3 li {width: 31%; height: 400px; margin: 10px;
         background-size: 210%; background-position: center; background-repeat: no-repeat;
         display: flex; align-items: flex-end; transition: all 0.5s;}
-    #sec3 figcaption {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
+    #sec3 p {color: #fff; font-size: 1.5em; padding-left: 30px; line-height: 110px;}
     #sec3 li:hover {background-size: 250%;}
 
 
