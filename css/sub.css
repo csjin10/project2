@@ -1,1 +1,18 @@
 @charset "utf-8";
+
+/* Section1 */
+#sec1 {width: 1280px; margin: 0 auto;}
+#sec1> div {position: relative;}
+#textbox {position: absolute; top: 0; left: 0;}
+#textbox h2 {color: #fff;}
+#textbox p {color: #fff;}
+#sec1 img {width: 100%;}
+
+
+
+/* Section2 */
+#sec2 {width: 1280px; margin: 0 auto;}
+#sec2> ul {display: flex; flex-wrap: wrap; justify-content: space-around;}
+#sec2> ul> li {width: 23%;}
+.roomType {width: 100%; overflow: hidden;}
+.roomType> img {width: 300%; margin-left: -100%;}
