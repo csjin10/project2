@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@media (max-width: 600px){
+    /* Section1 */
+    #sec1 {width: 100%; height: 100vh; background-position: center; background-size: cover; background-repeat: no-repeat;}
+    #sec1> div {width: 100%; height: 100%; margin: 0 auto; display: flex; justify-content: center;
+        flex-direction: row-reverse; align-items: center; background-color: rgba(0, 0, 0, 0.25);}
+    #textbox {text-align: center;}
+    #textbox h2 {color: #fff; font-size: 5vw;}
+    #textbox p {color: #fff; font-size: 3vw;}
+
+
+
+    /* Section2 */
+    #sec2 {width: 100%; margin: 0 auto; padding-top: 100px; padding-bottom: 100px;}
+    #sec2> h1 {text-align: center; padding-bottom: 25px;}
+    #sec2> ul {display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+    #sec2> ul> li {width: 90%; padding-bottom: 15%; display: flex; flex-direction: column;}
+    .roomType {width: 100%; overflow: hidden;}
+    .roomType> img {width: 150%; margin-left: -25%;}
+    .roomName {font-size: 1.2em; font-weight: 600; padding: 15px 0; text-align: center;}
+    .roomName> span {font-weight: 450;}
+    #sec2> ul> li a {align-self: center;}
+    .reservation {width: 110px; padding: 10px 0; background-color: #3f352c; text-align: center;}
+    .reservation:hover {background-color: #b4a79e; color: #3f352c; font-weight: 500; transition-duration: 0.4s;}
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1300px){
+    /* Section1 */
+    #sec1 {width: 100%; height: 100vh; background-position: center; background-size: cover; background-repeat: no-repeat;}
+    #sec1> div {width: 100%; height: 100%; margin: 0 auto; display: flex; 
+        flex-direction: row-reverse; align-items: center; background-color: rgba(0, 0, 0, 0.25);}
+    #textbox {padding-right: 3%;}
+    #textbox h2 {color: #fff; font-size: 2rem;}
+    #textbox p {color: #fff; font-size: 1.1rem;}
+
+
+
+    /* Section2 */
+    #sec2 {width: 100%; margin: 0 auto; padding-top: 100px; padding-bottom: 100px;}
+    #sec2> h1 {text-align: center; padding-bottom: 25px;}
+    #sec2> ul {display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+    #sec2> ul> li {width: 46%; padding-bottom: 5%; display: flex; flex-direction: column;}
+    .roomType {width: 100%; overflow: hidden;}
+    .roomType> img {width: 150%; margin-left: -25%;}
+    .roomName {font-size: 1.2em; font-weight: 600; padding: 15px 0; text-align: center;}
+    .roomName> span {font-weight: 450;}
+    #sec2> ul> li a {align-self: center;}
+    .reservation {width: 110px; padding: 10px 0; background-color: #3f352c; text-align: center;}
+    .reservation:hover {background-color: #b4a79e; color: #3f352c; font-weight: 500; transition-duration: 0.4s;}
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1300px){
+    /* Section1 */
+    #sec1 {width: 100%; height: 100vh; background-position: center; background-size: cover; background-repeat: no-repeat;}
+    #sec1> div {width: 1280px; height: 100%; margin: 0 auto; display: flex; 
+        flex-direction: row-reverse; align-items: center; background-color: rgba(0, 0, 0, 0.25);}
+    #textbox {padding-right: 1%;}
+    #textbox h2 {color: #fff; font-size: 2.1rem;}
+    #textbox p {color: #fff; font-size: 1.2rem;}
+
+
+
+    /* Section2 */
+    #sec2 {width: 1280px; margin: 0 auto; padding-top: 100px; padding-bottom: 100px;}
+    #sec2> h1 {text-align: center; padding-bottom: 25px;}
+    #sec2> ul {display: flex; flex-wrap: wrap; justify-content: space-around;}
+    #sec2> ul> li {width: 23%;}
+    .roomType {width: 100%; overflow: hidden;}
+    .roomType> img {width: 300%; margin-left: -100%;}
+    .roomName {font-size: 1.3em; font-weight: 600; padding: 15px 0;}
+    .roomName> span {font-weight: 450;}
+    .reservation {width: 110px; padding: 10px 0; background-color: #3f352c; text-align: center;}
+    .reservation:hover {background-color: #b4a79e; color: #3f352c; font-weight: 500; transition-duration: 0.4s;}
+}
