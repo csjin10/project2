@@ -26,7 +26,7 @@
     .sec1_text {padding: 65px 0 0 0; width: 100%; height: auto; text-align: center; order: 1;}
     .sec1_text> img {width: 215px;}
     .sec1_text> h2 {font-size: 1.4rem; color: #444;}
-    .sec1_text> p {font-size: 0.8rem;}
+    .sec1_text> p {font-size: 0.8rem; line-height: 30px;}
     #sec1 img[alt="sec1_img1"] {width: 50%;}
     #sec1 img[alt="sec1_img2"] {width: 50%;}
 
@@ -107,7 +107,7 @@
     .sec1_text {padding: 65px 0 0 0; width: 100%; height: auto; text-align: center; order: 1;}
     .sec1_text> img {width: 220px;}
     .sec1_text> h2 {font-size: 1.9rem; color: #444;}
-    .sec1_text> p {font-size: 1.1rem;}
+    .sec1_text> p {font-size: 1.1rem; line-height: 35px;}
     #sec1 img[alt="sec1_img1"] {width: 50%;}
     #sec1 img[alt="sec1_img2"] {width: 50%;}
 
@@ -188,7 +188,7 @@
     .sec1_text {padding: 65px 0 0 0; width: 35%; height: auto; text-align: center;}
     .sec1_text> img {width: 220px;}
     .sec1_text> h2 {font-size: 1.9rem; color: #444;}
-    .sec1_text> p {font-size: 1.1rem;}
+    .sec1_text> p {font-size: 1.1rem; line-height: 35px;}
     #sec1 img[alt="sec1_img1"] {width: 32%;}
     #sec1 img[alt="sec1_img2"] {width: 32%;}
 

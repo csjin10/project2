@@ -7,7 +7,7 @@
         flex-direction: row-reverse; align-items: center; background-color: rgba(0, 0, 0, 0.25);}
     #textbox {text-align: center;}
     #textbox h2 {color: #fff; font-size: 5vw;}
-    #textbox p {color: #fff; font-size: 3vw;}
+    #textbox p {color: #fff; font-size: 3vw; line-height: 25px;}
 
 
 
@@ -39,7 +39,7 @@
         flex-direction: row-reverse; align-items: center; background-color: rgba(0, 0, 0, 0.25);}
     #textbox {padding-right: 3%;}
     #textbox h2 {color: #fff; font-size: 2rem;}
-    #textbox p {color: #fff; font-size: 1.1rem;}
+    #textbox p {color: #fff; font-size: 1.1rem; line-height: 35px;}
 
 
 
@@ -71,7 +71,7 @@
         flex-direction: row-reverse; align-items: center; background-color: rgba(0, 0, 0, 0.25);}
     #textbox {padding-right: 1%;}
     #textbox h2 {color: #fff; font-size: 2.1rem;}
-    #textbox p {color: #fff; font-size: 1.2rem;}
+    #textbox p {color: #fff; font-size: 1.2rem; line-height: 35px;}
 
 
 

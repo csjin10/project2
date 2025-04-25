@@ -1,2 +1,42 @@
 @charset "utf-8";
 
+/* Slider */
+#slide_wrap {width: 100%; height: auto; margin: 0 auto;}
+.slide {width: 100%; height: 48vw;} /* 높이 있어야 뜨지 않음 */
+.slide li {width: 100%; height: auto; position: absolute; top: 0; left: 0;}
+.slide li:not(:first-child) {display: none;}
+.slide li img {width: 100%; height: 100%;}
+
+
+
+
+/* Section1 */
+#sec1 {width: 1280px; margin: 0 auto; display: flex; padding-top: 100px;}
+#d_text {width: 70%;}
+#d_text h2 {font-family: 'Noto Sans Display'; font-weight: 550; font-size: 1.1rem; line-height: 30px;}
+#d_text h1 span {font-size: 1.3rem; color: #b4a79e;}
+#d_text p {font-size: 1.1rem; line-height: 35px;}
+#d_btn {width: 30%; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;}
+#d_btn p {width: 70%; padding: 12px 0; margin-top: 5%; font-size: 1.1rem; font-weight: 500; text-align: center; border: 1px solid #3f352c; color: #3f352c; cursor: pointer;}
+#d_btn p:first-child {background-color: #3f352c; color: #fff; border: 1px solid #3f352c; font-weight: 450;}
+
+
+
+
+/* Section2 */
+#sec2 {width: 1280px; margin: 0 auto; display: flex; margin-top: 100px; border-top: 1px solid #888; border-bottom: 1px solid #888;}
+#sec2> ul {width: 50%; padding: 25px 0 0 25px;}
+#sec2> ul:last-child {border-left: 1px solid #888;}
+#sec2 li {line-height: 29px; padding-bottom: 25px;}
+#sec2 li h3 {font-size: 1.2rem;}
+#sec2 li p {font-size: 1.05rem; color: #666;}
+
+
+
+
+/* Section3 */
+#sec3 {width: 1280px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px;}
+.title {display: flex; border-bottom: 1px solid #888; border-top: 1px solid #888;}
+#rooms {border-bottom: 1px solid #888;}
+.room {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.room li {width: 30%;}
