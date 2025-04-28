@@ -34,3 +34,44 @@ function slide(){
 
 setInterval(slide,3500);
 
+
+
+
+// Section3
+$(function(){
+    $('.tab_menu').click(function(){
+        let index=$(this).index();
+
+        $('.tab_sub').eq(index).show().siblings().hide();
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+});
+
+
+
+
+// 위치 창
+$(function(){
+    $('#location_btn').click(function(){
+        $('#locationWrap').fadeIn();
+    });
+
+    $('#location_close').click(function(){
+        $('#locationWrap').fadeOut();
+    });
+});
+
+
+
+
+// 도면 창
+$(function(){
+    $('#floor_btn').click(function(){
+        $('#floorWrap').fadeIn();
+    });
+
+    $('#floor_close').click(function(){
+        $('#floorWrap').fadeOut();
+    });
+});
+

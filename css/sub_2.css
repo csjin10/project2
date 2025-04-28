@@ -1,5 +1,25 @@
 @charset "utf-8";
 
+@media (max-width: 600px){}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1300px){}
+
+
+
+
+
+
+
+
+@media (min-width: 1300px){}
+
 /* Slider */
 #slide_wrap {width: 100%; height: auto; margin: 0 auto;}
 .slide {width: 100%; height: 48vw;} /* 높이 있어야 뜨지 않음 */
@@ -23,6 +43,7 @@
 
 
 
+
 /* Section2 */
 #sec2 {width: 1280px; margin: 0 auto; display: flex; margin-top: 100px; border-top: 1px solid #888; border-bottom: 1px solid #888;}
 #sec2> ul {width: 50%; padding: 25px 0 0 25px;}
@@ -36,7 +57,33 @@
 
 /* Section3 */
 #sec3 {width: 1280px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px;}
-.title {display: flex; border-bottom: 1px solid #888; border-top: 1px solid #888;}
-#rooms {border-bottom: 1px solid #888;}
-.room {display: flex; flex-wrap: wrap; justify-content: space-between;}
-.room li {width: 30%;}
+#sec3> h1 {text-align: center; padding-bottom: 25px;}
+.title {display: flex; padding: 0 20%; border-bottom: 1px solid #888; border-top: 1px solid #888; justify-content: space-between; text-align: center;}
+.title li {width: 18%; padding: 8px 0; font-family: 'Noto Sans Display'; font-size: 1.3rem; font-weight: 500; color: #b4a79e; cursor: pointer;}
+#rooms {border-bottom: 1px solid #888; padding: 30px 20px 30px 50px; height: 263px; position: relative;}
+.room {width: 90%; display: flex; flex-wrap: wrap; line-height: 40px; position: absolute;}
+.room li {width: 33%; list-style-type: disc; font-size: 1.05rem;}
+
+.title> .active {border-bottom: 3px solid #3f352c; color: #3f352c;}
+.tab_sub:not(:nth-of-type(1)) {display: none;}
+
+
+
+
+
+/* 위치 창 */
+#locationWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    position: fixed; top: 0; left: 0; display: none;}
+#location {width: 700px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#location p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
+#location iframe {width: 100%; height: 650px;}
+
+
+
+
+/* 도면 창 */
+#floorWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    position: fixed; top: 0; left: 0; display: none;}
+#floor {width: 700px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#floor p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
+#floor img {width: 100%;}
