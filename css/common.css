@@ -67,7 +67,7 @@ body {background-color: #e6dcd3;}
     .fa-globe {font-size: 1.45rem;}
     .fa-bars {font-size: 1.4rem;}
 
-    .mainMenu {position: absolute; top: 70px; left: 0; width: 100%; height: auto; display: flex; justify-content: center; text-align: center;
+    .mainMenu {position: absolute; top: 70px; left: 0; width: 100%; height: 290px; display: flex; justify-content: center; text-align: center;
     background-color: rgba(255, 255, 255, 0.6); line-height: 40px; display: none;}
     .mainMenu> li {width: 12%; font-size: 99.8%; align-self: baseline;}
     .subMenu {padding-top: 15px;}
@@ -113,7 +113,7 @@ body {background-color: #e6dcd3;}
     .fa-globe {font-size: 1.45rem;}
     .fa-bars {font-size: 1.4rem;}
 
-    .mainMenu {position: absolute; top: 100px; left: 0; width: 100%; height: auto; display: flex; justify-content: center; text-align: center;
+    .mainMenu {position: absolute; top: 100px; left: 0; width: 100%; height: 290px; display: flex; justify-content: center; text-align: center;
     background-color: rgba(255, 255, 255, 0.6); line-height: 40px; display: none;}
     .mainMenu> li {width: 7%; font-size: 1.4rem; align-self: baseline;}
     .subMenu {padding-top: 15px;}
