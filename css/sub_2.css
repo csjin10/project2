@@ -53,7 +53,7 @@
 
 
     /* 위치 창 */
-    #locationWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    #locationWrap {z-index: 101; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
         position: fixed; top: 0; left: 0; display: none;}
     #location {width: 80vw; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
     #location p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
@@ -63,7 +63,7 @@
 
 
     /* 도면 창 */
-    #floorWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    #floorWrap {z-index: 101; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
         position: fixed; top: 0; left: 0; display: none;}
     #floor {width: 80vw; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
     #floor p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
@@ -130,7 +130,7 @@
 
 
     /* 위치 창 */
-    #locationWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    #locationWrap {z-index: 101; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
         position: fixed; top: 0; left: 0; display: none;}
     #location {width: 60vw; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
     #location p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
@@ -140,7 +140,7 @@
 
 
     /* 도면 창 */
-    #floorWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    #floorWrap {z-index: 101; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
         position: fixed; top: 0; left: 0; display: none;}
     #floor {width: 55vw; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
     #floor p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
@@ -207,7 +207,7 @@
 
 
     /* 위치 창 */
-    #locationWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    #locationWrap {z-index: 101; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
         position: fixed; top: 0; left: 0; display: none;}
     #location {width: 760px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
     #location p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
@@ -217,7 +217,7 @@
 
 
     /* 도면 창 */
-    #floorWrap {width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
+    #floorWrap {z-index: 101; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); 
         position: fixed; top: 0; left: 0; display: none;}
     #floor {width: 700px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
     #floor p {font-size: 2rem; color: #fff; text-align: right; cursor: pointer;}
