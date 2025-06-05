@@ -204,10 +204,9 @@
     #sec2 p {text-align: center; font-size: 1.3em; font-weight: 600; padding-top: 5px;}
     #sec2 p> span {font-weight: 450;}
 
-    #sec2> span {position: absolute; top: 57%; display: block; font-size: 75px; line-height: 25px; color: #333;
-            /* background: rgba(0, 0, 0, 0.6); */ cursor: pointer; height: 25px; transform: translateY(-50%);}
-    .prev {left: 0; /* padding: 9.5px 11px 15px 9px; border-radius: 100px; */}
-    .next {right: 0; /* padding: 9.5px 9px 15px 11px; border-radius: 100px; */}
+    #sec2> span {position: absolute; top: 57%; display: block; font-size: 75px; line-height: 25px; color: #333; cursor: pointer; height: 25px; transform: translateY(-50%);}
+    .prev {left: 0;}
+    .next {right: 0;}
 
 
 
